@@ -1,8 +1,13 @@
+
 # Frosts GRUB Theme Installer
 
 This repository contains a comprehensive shell script designed to install GRUB
 bootloader themes and manage GRUB configuration settings across various Linux
 distributions.
+
+# How to use (Quick Guide)
+Download install.sh, put it in the same folder as the theme desired to be installed.
+If on Mint Linux then double click install.sh, for other distros open the terminal in the same dir and run "sudo ./install.sh -m
 
 # What is this?
 
