@@ -1,10 +1,10 @@
-Frosts GRUB Theme Installer
+# Frosts GRUB Theme Installer
 
 This repository contains a comprehensive shell script designed to install GRUB
 bootloader themes and manage GRUB configuration settings across various Linux
 distributions.
 
-What is this?
+# What is this?
 
 This project is an automated installer and management tool for GRUB themes.
 Beyond simply copying files, it acts as a configuration utility that allows
@@ -14,7 +14,7 @@ through an interactive terminal interface. It is designed to be
 theme folder and it will automatically handle the installation process for that
 specific theme.
 
-Features
+# Features
 
   - Cross-Distribution Support: Automatically detects and uses package managers
     for Ubuntu/Debian (apt), Fedora/CentOS (dnf/yum), Arch Linux (pacman),
@@ -29,7 +29,7 @@ Features
   - Safety Checks: Verifies the existence of required theme files (like
     theme.txt) before attempting installation.
 
-How it Works
+# How it Works
 
 The script operates in three primary modes:
 
@@ -55,7 +55,7 @@ The script operates in three primary modes:
       - Reverts changes in /etc/default/grub by commenting out the theme path.
       - Regenerates the GRUB configuration to restore the default look.
 
-Installation and Usage
+# Installation and Usage
 
 Prerequisites
 
@@ -92,7 +92,7 @@ Command Line Options
 | `-m`       | `--menu`     | Launch the interactive GRUB customization menu.                                    |
 | `-h`       | `--help`     | Show the help menu and exit.                                                       |
 
-Troubleshooting
+# Troubleshooting
 
   - Incorrect Password: The script requires root privileges to modify
     /etc/default/grub and the /boot partition. Ensure you run the script with
