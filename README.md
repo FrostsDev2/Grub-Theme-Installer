@@ -72,20 +72,20 @@ Basic Installation
 
 To install the theme located in the current directory:
 
-``hmod +x install.sh
-  sudo ./install.sh``
+``hmod +x install.sh``
+``sudo ./install.sh``
 
 Using the Customization Menu
 
 To manage boot settings (timeout, default entry, etc.) interactively:
 
-sudo ./install.sh --menu
+``sudo ./install.sh --menu``
 
 Uninstallation
 
 To remove the theme and revert to system defaults:
 
-sudo ./install.sh --remove
+``sudo ./install.sh --remove``
 
 Command Line Options
 
