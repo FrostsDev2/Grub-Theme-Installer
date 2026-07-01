@@ -72,8 +72,8 @@ Basic Installation
 
 To install the theme located in the current directory:
 
-chmod +x install.sh
-sudo ./install.sh
+``hmod +x install.sh
+  sudo ./install.sh``
 
 Using the Customization Menu
 
