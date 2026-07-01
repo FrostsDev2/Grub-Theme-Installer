@@ -7,7 +7,7 @@ distributions.
 
 # How to use (Quick Guide)
 Download install.sh, put it in the same folder as the theme desired to be installed.
-If on Mint Linux then double click install.sh, for other distros open the terminal in the same dir and run "sudo ./install.sh -m
+If on Mint Linux then double click install.sh, for other distros open the terminal in the same dir and run ```sudo ./install.sh -m```
 
 # What is this?
 
